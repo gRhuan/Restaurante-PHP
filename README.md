@@ -10,9 +10,6 @@
 6. [Fluxo de Funcionamento](#6-fluxo-de-funcionamento)
 7. [Tecnologias Utilizadas](#7-tecnologias-utilizadas)
 8. [Desenvolvimento e Implementação](#8-desenvolvimento-e-implementação)
-9. [Testes e Validação](#9-testes-e-validação)
-10. [Manutenção e Suporte](#10-manutenção-e-suporte)
-11. [Considerações Finais](#11-considerações-finais)
 
 ## 1. Introdução
 
@@ -63,7 +60,7 @@ O sistema é composto por três principais componentes:
 
 ### Backend
 
-- **Tecnologias:** Node.js, Express.js, Socket.io, PHP
+- **Tecnologias:** PHP
 - **Funcionalidades:**
   - API RESTful para comunicação com o frontend.
   - Gerenciamento de pedidos e atualizações de status.
@@ -87,9 +84,9 @@ O sistema é composto por três principais componentes:
 ## 7. Tecnologias Utilizadas
 
 - **Frontend:** HTML, CSS, JavaScript, WebSockets
-- **Backend:** Node.js, Express.js, PHP
+- **Backend:** PHP
 - **Banco de Dados:** MySQL
-- **Outras Ferramentas:** Jest (para testes), Git (controle de versão), Trello (gestão de tarefas)
+- **Outras Ferramentas:** Git (controle de versão), Trello (gestão de tarefas)
 
 ## 8. Desenvolvimento e Implementação
 
@@ -101,19 +98,3 @@ O sistema é composto por três principais componentes:
 4. **Desenvolvimento do Backend:** Implementação de APIs e lógica de negócios.
 5. **Integração e Testes:** Integração de frontend e backend, seguido de testes unitários e de integração.
 6. **Deploy:** Implementação em ambiente de produção.
-
-## 9. Testes e Validação
-
-- **Testes Unitários:** Testar componentes individuais do sistema.
-- **Testes de Integração:** Garantir que os componentes funcionem juntos conforme esperado.
-- **Testes de Aceitação:** Validação final com usuários para garantir que o sistema atenda aos requisitos.
-
-## 10. Manutenção e Suporte
-
-- **Atualizações Regulares:** Manter o sistema atualizado com novas funcionalidades e correções de bugs.
-- **Monitoramento:** Utilizar ferramentas de monitoramento para garantir o desempenho e a segurança do sistema.
-- **Suporte ao Cliente:** Disponibilizar suporte para resolver dúvidas e problemas dos usuários.
-
-## 11. Considerações Finais
-
-Este sistema visa modernizar e otimizar o processo de pedidos em lanchonetes, trazendo benefícios significativos para a operação do estabelecimento e para a experiência dos clientes. Com uma implementação bem-sucedida, espera-se uma melhoria substancial na eficiência do atendimento e na satisfação dos clientes.
